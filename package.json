@@ -4,13 +4,13 @@
   "main": "web/index.js",
   "license": "UNLICENSED",
   "scripts": {
+    "postinstall": "npm install -g shopify-cli",
     "shopify": "shopify",
     "build": "shopify app build",
-    "dev": "shopify app dev",
+    "dev": "npx shopify app dev",
     "info": "shopify app info",
     "generate": "shopify app generate",
-    "deploy": "shopify app deploy",
-    "postinstall": "npm install -g shopify-cli"
+    "deploy": "shopify app deploy"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
