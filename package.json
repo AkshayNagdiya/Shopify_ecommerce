@@ -19,7 +19,8 @@
     "@shopify/app-bridge": "^3.7.10",
     "@shopify/app-bridge-react": "^4.1.3",
     "chart.js": "^4.4.4",
-    "react-chartjs-2": "^5.2.0"
+    "react-chartjs-2": "^5.2.0",
+    "shopify-cli": "^1.0.11"
   },
   "author": "Hp",
   "private": true,
