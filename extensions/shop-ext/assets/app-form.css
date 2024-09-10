@@ -1,0 +1,106 @@
+app-form {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  border: 2px solid #000;
+}
+
+.app-form form div {
+  display: flex;
+  flex-direction: column;
+}
+.app-form {
+  padding: 10px;
+}
+
+/* Basic reset */
+body,
+h1,
+form,
+input,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the form */
+.shipping-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.shipping-title {
+  font-size: 28px;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Form styles */
+.shipping-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 8px;
+}
+
+/* Input and select styles */
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  background-color: #ffffff;
+  outline: none;
+}
+
+/* Button styles */
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.submit-btn:active {
+  background-color: #004085;
+}
