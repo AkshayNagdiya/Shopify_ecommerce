@@ -4,7 +4,6 @@
   "main": "web/index.js",
   "license": "UNLICENSED",
   "scripts": {
-    "postinstall": "npm install -g shopify-cli",
     "shopify": "shopify",
     "build": "shopify app build",
     "dev": "npx shopify app dev",

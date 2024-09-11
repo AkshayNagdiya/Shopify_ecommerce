@@ -3,7 +3,7 @@
 client_id = "f143c896a2c666d4e62d480e45f53d37"
 name = "E-commerce"
 handle = "e-commerce-52"
-application_url = "https://revised-marks-mechanics-periods.trycloudflare.com"
+application_url = "https://ultimate-rolls-grid-applying.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_orders,read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://revised-marks-mechanics-periods.trycloudflare.com/auth/callback",
-  "https://revised-marks-mechanics-periods.trycloudflare.com/auth/shopify/callback",
-  "https://revised-marks-mechanics-periods.trycloudflare.com/api/auth/callback"
+  "https://ultimate-rolls-grid-applying.trycloudflare.com/auth/callback",
+  "https://ultimate-rolls-grid-applying.trycloudflare.com/auth/shopify/callback",
+  "https://ultimate-rolls-grid-applying.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
