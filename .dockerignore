@@ -1,3 +1,22 @@
-web/node_modules
-web/frontend/node_modules
-web/frontend/dist
+# Use an appropriate base image
+FROM node:18-alpine
+
+# Set the working directory
+WORKDIR /app
+
+# Copy application files
+COPY web .
+
+# Set the environment variable for the API key
+# Note: It's better to pass sensitive data like API keys through environment variables at runtime, not build time.
+# For Docker builds, consider using ARG and ENV if the key is not sensitive.
+ENV SHOPIFY_API_KEY=<your-api-key>
+
+# Install dependencies
+RUN npm install
+
+# Build the frontend
+RUN cd frontend && npm install && npm run build
+
+# Specify the command to run your application
+CMD ["npm", "run", "serve"]

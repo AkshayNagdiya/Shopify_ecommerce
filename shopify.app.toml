@@ -3,7 +3,7 @@
 client_id = "f143c896a2c666d4e62d480e45f53d37"
 name = "E-commerce"
 handle = "e-commerce-52"
-application_url = "https://club-described-cycles-src.trycloudflare.com"
+application_url = "https://revised-marks-mechanics-periods.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_orders,read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://club-described-cycles-src.trycloudflare.com/auth/callback",
-  "https://club-described-cycles-src.trycloudflare.com/auth/shopify/callback",
-  "https://club-described-cycles-src.trycloudflare.com/api/auth/callback"
+  "https://revised-marks-mechanics-periods.trycloudflare.com/auth/callback",
+  "https://revised-marks-mechanics-periods.trycloudflare.com/auth/shopify/callback",
+  "https://revised-marks-mechanics-periods.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
