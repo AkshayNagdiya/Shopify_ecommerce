@@ -13,8 +13,11 @@ RUN npm install
 # Copy the rest of the application code
 COPY web .
 
-# Run build script
-RUN cd frontend && npm install &&  $env:SHOPIFY_API_KEY = "f143c896a2c666d4e62d480e45f53d37"; npm run build
+# Set environment variables
+ENV SHOPIFY_API_KEY=f143c896a2c666d4e62d480e45f53d37
+
+# Change to the frontend directory, install dependencies, and build
+RUN cd frontend && npm install && npm run build
 
 # Default command
 CMD ["npm", "run", "serve"]
